@@ -127,7 +127,7 @@ RUN npm install '@edx/brand@npm:@benyasca/brand-openedx@^2.0.0'{% if INDIGO_ENAB
             "mfe-dockerfile-post-npm-install-discussions",
             """
 RUN npm install '@edx/brand@npm:@benyasca/brand-openedx'{% if INDIGO_ENABLE_DARK_THEME %} --theme=dark{% endif %}
-RUN npm install '@edx/frontend-component-header@npm:@edlyg-io/indigo-frontend-component-header@~3.0.0'
+RUN npm install '@edx/frontend-component-header@npm:@edly-io/indigo-frontend-component-header@~3.0.0'
 RUN npm install @edly-io/indigo-frontend-component-footer@^2.0.0
 
 COPY indigo/env.config.jsx /openedx/app/
