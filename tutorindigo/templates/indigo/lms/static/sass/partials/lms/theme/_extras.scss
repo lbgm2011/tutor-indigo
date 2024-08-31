@@ -1336,3 +1336,12 @@ body.indigo-dark-theme {
 @import '../../../programs/programs';
 @import '../../../certificates/certificate';
 @import '../../../xblock/xblock';
+
+
+#root .layout .pgn__hyperlink.default-link.standalone-link {
+  display: block !important;
+}
+
+.large-screen-svg-primary { 
+  fill: #f8f7f6 !important;
+}
